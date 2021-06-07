@@ -81,7 +81,7 @@ async function htmlFila(doc) {
   const data = doc.data();
   const img = cod(
     await urlStorage(doc.id));
-  const pasatiempo =
+  const auto =
     await buscaAuto(
       data.autoId);
   const roles =
@@ -105,7 +105,7 @@ async function htmlFila(doc) {
           </strong>
           <span
               class="secundario">
-            ${pasatiempo}<br>
+            ${auto}<br>
             ${roles}
           </span>
         </span>
