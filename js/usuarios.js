@@ -147,7 +147,7 @@ export async function
     id) {
   try {
     evt.preventDefault();
-    const pasatiempoId =
+    const autoId =
       getForánea(formData,
         "AutoId");
     const rolIds =
