@@ -31,7 +31,7 @@ async function protege(usuario) {
     ["Administrador"])) {
     forma.addEventListener(
       "submit", guarda);
-    selectPasatiempos(
+    selectAutos(
       forma.autoId, "");
     checksRoles(listaRoles, []);
   }
