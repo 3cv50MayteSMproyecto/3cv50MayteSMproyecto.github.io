@@ -57,7 +57,7 @@ async function busca() {
       forma.cue.value = id || "";
       img.src =
         await urlStorage(id);
-      selectPasatiempos(
+      selectAutos(
         forma.autoId,
         data.autoId)
       checksRoles(
