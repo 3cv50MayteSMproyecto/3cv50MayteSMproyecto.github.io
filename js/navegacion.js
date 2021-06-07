@@ -1,5 +1,5 @@
 export function
-  muestraPasatiempos() {
+  muestraAutos() {
   location.href =
     "autos.html";
 }
